@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC4E10D4-A1DC-40EA-83EA-6935BE107E5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>酒店管理系统</RootNamespace>
+    <AssemblyName>酒店管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerIn.Designer.cs">
+      <DependentUpon>CustomerIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerInfo.Designer.cs">
+      <DependentUpon>CustomerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerOut.Designer.cs">
+      <DependentUpon>CustomerOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InHistory.Designer.cs">
+      <DependentUpon>InHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputRoomID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputRoomID.Designer.cs">
+      <DependentUpon>InputRoomID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerAdd.Designer.cs">
+      <DependentUpon>ManagerAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerMain.Designer.cs">
+      <DependentUpon>ManagerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutHistory.Designer.cs">
+      <DependentUpon>OutHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomerRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerRegister.Designer.cs">
+      <DependentUpon>CustomerRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room.Designer.cs">
+      <DependentUpon>Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomInfo.Designer.cs">
+      <DependentUpon>RoomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateRoomInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateRoomInfo.Designer.cs">
+      <DependentUpon>UpdateRoomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker.Designer.cs">
+      <DependentUpon>Worker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerMain.Designer.cs">
+      <DependentUpon>WorkerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="公共操作类库\Operation.cs" />
+    <EmbeddedResource Include="CustomerIn.resx">
+      <DependentUpon>CustomerIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerInfo.resx">
+      <DependentUpon>CustomerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerOut.resx">
+      <DependentUpon>CustomerOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InHistory.resx">
+      <DependentUpon>InHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputRoomID.resx">
+      <DependentUpon>InputRoomID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerAdd.resx">
+      <DependentUpon>ManagerAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerMain.resx">
+      <DependentUpon>ManagerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutHistory.resx">
+      <DependentUpon>OutHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerRegister.resx">
+      <DependentUpon>CustomerRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room.resx">
+      <DependentUpon>Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomInfo.resx">
+      <DependentUpon>RoomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateRoomInfo.resx">
+      <DependentUpon>UpdateRoomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker.resx">
+      <DependentUpon>Worker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerMain.resx">
+      <DependentUpon>WorkerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\WorkerBLL\BLL.csproj">
+      <Project>{0c1b6b77-48a8-4650-89cf-fc9aa80076a5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

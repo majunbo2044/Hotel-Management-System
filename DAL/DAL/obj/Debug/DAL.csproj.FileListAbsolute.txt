@@ -1,0 +1,12 @@
+C:\Users\majun\Desktop\酒店管理系统\DAL\DAL\bin\Debug\DAL.dll
+C:\Users\majun\Desktop\酒店管理系统\DAL\DAL\bin\Debug\DAL.pdb
+C:\Users\majun\Desktop\酒店管理系统\DAL\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\majun\Desktop\酒店管理系统\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\majun\Desktop\酒店管理系统\DAL\DAL\obj\Debug\DAL.dll
+C:\Users\majun\Desktop\酒店管理系统\DAL\DAL\obj\Debug\DAL.pdb
+C:\Users\majun\Desktop\数据库课程设计\酒店管理系统\DAL\DAL\bin\Debug\DAL.dll
+C:\Users\majun\Desktop\数据库课程设计\酒店管理系统\DAL\DAL\bin\Debug\DAL.pdb
+C:\Users\majun\Desktop\数据库课程设计\酒店管理系统\DAL\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\majun\Desktop\数据库课程设计\酒店管理系统\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\majun\Desktop\数据库课程设计\酒店管理系统\DAL\DAL\obj\Debug\DAL.dll
+C:\Users\majun\Desktop\数据库课程设计\酒店管理系统\DAL\DAL\obj\Debug\DAL.pdb
