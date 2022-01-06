@@ -7,7 +7,8 @@ using System.Data;
 using DAL;
 namespace BLL
 {
-   public class CustomerBLL
+ //测试
+ public class CustomerBLL
     {
         CustomerDAL DAL = new CustomerDAL();
         public DataTable GetInfo()
